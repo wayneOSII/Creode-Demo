@@ -1,15 +1,7 @@
-name = "creode"
+name = "creode-demo"
 compatibility_date = "2024-11-01"
 main = "src/index.ts"
 
-[[d1_databases]]
-binding = "DB"
-database_name = "creode-db"
-database_id = ""
-
-[vars]
-SUPABASE_URL = ""
-SUPABASE_SERVICE_ROLE_KEY = ""
-OPENAI_API_KEY = ""
-PADDLE_API_KEY = ""
-PADDLE_WEBHOOK_SECRET = ""
+# Secrets (set via `wrangler secret put <NAME>`):
+#   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY
+#   PADDLE_API_KEY, PADDLE_WEBHOOK_SECRET
