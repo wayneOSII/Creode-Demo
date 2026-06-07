@@ -1,0 +1,20 @@
+{
+  "name": "creode",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-driven canvas-based creative system",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev:frontend": "npm -w frontend run dev",
+    "dev:backend": "npm -w backend run dev",
+    "build:frontend": "npm -w frontend run build",
+    "build:backend": "npm -w backend run build",
+    "deploy:frontend": "npm -w frontend run deploy",
+    "deploy:backend": "npm -w backend run deploy",
+    "lint": "npm -w frontend run lint && npm -w backend run lint",
+    "typecheck": "npm -w frontend run typecheck && npm -w backend run typecheck"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

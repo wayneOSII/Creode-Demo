@@ -1,0 +1,15 @@
+name = "creode"
+compatibility_date = "2024-11-01"
+main = "src/index.ts"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "creode-db"
+database_id = ""
+
+[vars]
+SUPABASE_URL = ""
+SUPABASE_SERVICE_ROLE_KEY = ""
+OPENAI_API_KEY = ""
+PADDLE_API_KEY = ""
+PADDLE_WEBHOOK_SECRET = ""
