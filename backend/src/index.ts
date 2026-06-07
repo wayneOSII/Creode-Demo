@@ -10,7 +10,7 @@ const app = new Hono<AppContext>();
 
 // ──── Global middleware ────
 app.use('*', cors({
-  origin: ['http://localhost:5173', 'https://creode.pages.dev'],
+  origin: ['http://localhost:5173', 'https://creode-demo-frontend.vercel.app'],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowHeaders: ['Content-Type', 'Authorization'],
   maxAge: 86400,
